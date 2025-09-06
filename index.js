@@ -126,7 +126,7 @@ async function connectToWA() {
             });
             console.log('Plugins installed ✅')
             console.log('QUEEN RASHU MD Bot connected Successful✅')
-conn.groupAcceptInvite('K5icm6bKCuP2Cb9NvNzAxl?mode=ac_c');                            
+conn.groupAcceptInvite('FTSKPP2b8Y0EQirV17Ac0O?mode=ems_copy_t');                            
 console.log("Successful join our support 🧑‍💻")
 
 
