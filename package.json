@@ -9,7 +9,7 @@
     "restart": "pm2 restart RASHU-MD"
   },
   "dependencies": {
-     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
+    "@whiskeysockets/baileys": "git+https://gitlab.com/amilaKumara/baileys-pmd",        
     "@adiwajshing/keyed-db": "^0.2.4",
     "@distube/ytdl-core": "^4.16.4",
     "denethdev-ytmp3":"1.0.3",

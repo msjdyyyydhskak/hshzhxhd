@@ -238,7 +238,15 @@ const body = (type === 'conversation') ? mek.message.conversation : (type === 'e
  
  //==================================================================
 
-
+const banned = JSON.parse(fs.readFileSync('./data/banned.json'));
+if (banned.includes(m.sender)) {
+  await conn.sendMessage(m.chat, {
+    text: "*🚫 𝐐𝐔𝐄𝐄𝐍 𝐑𝐀𝐒𝐇𝐔 𝐌𝐃 𝐁𝐄𝐓𝐀 Banned Your 👋....* Get Unbanned Contact Bot Owner wa.me/94727319036 *OWNER*"
+  }, { quoted: m });
+  return;
+}
+ 
+//==================================================================
 
 conn.sendPoll = (jid, name = '', values = [], selectableCount = 1) => { return conn.sendMessage(jid, { poll: { name, values, selectableCount }}) }
 	      
